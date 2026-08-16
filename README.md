@@ -11,27 +11,4 @@ TITULUS has copyrights and is licensed under the SIL Open Font License (https://
 
 The font is designed and engineerd for transcription purpose, but since the font is based on medieval TITULI it can be used for titles as well. (book title on covers, titles in presentations, ...) The author advises you strongly to not use the font for large bodies of text, as it will not be legible. 
 
-The Font consists of CAPITAL letters only, alongside diacritics, ligatures, punctuation marks and symbols. For most letters there exist multiple alternates (allographs/variations of letterforms) that are not accessible through the standard keyboard. You can acces these glyphs through three ways: 
-	1) OpenTypeFeature (OTF), in the case you use a software that integrates OTF. 
-	2) By simply copying the glyph from this pdf. For this you need to make sure you first install the on your device. 
-	3) for web use by integrating the production name of the glyph in the XML code. An example to write TITVLVS instead of TITVLVS.
-
-<?xml version=”1.0” encoding=”UTF-8”?>
-<TEI xmlns=”http://www.tei-c.org/ns/1.0”>
-    <teiHeader>
-    </teiHeader>
-    <text>
-        <body>
-            <g ref=”cv01”>T</g>
-            <g>I</g>
-            <g ref=”cv02”>T</g>
-            <g ref=”cv01”>V</g>
-            <g>L</g>
-            <g ref=”cv02”>V</g>
-            <g>S</g>
-        </body>
-    </text>
-</TEI>
-
-
 The TITULUS font is still an ongoing practice. Newer versions of the font might appear in the future. Make sure to keep an eye on the github. 
